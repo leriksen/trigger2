@@ -4,7 +4,8 @@ resources:
       source: leriksen.trigger1
       trigger:
         branches:
-          include: '*'
+          include:
+            - '*'
 
 steps:
   - script: echo trigger2
