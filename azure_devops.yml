@@ -1,7 +1,11 @@
+trigger: none
+
+pr: none
+
 resources:
   pipelines:
     - pipeline: trigger1
-      source: trigger1
+      source: leriksen.trigger1
       trigger:
         branches:
           include:
