@@ -1,3 +1,7 @@
+resources:
+  pipelines:
+    - pipeline: trigger1
+      source: leriksen.trigger1
+
 steps:
   - script: echo trigger2
-
