@@ -1,16 +1,11 @@
 trigger: none
-
 pr: none
-
 resources:
   pipelines:
     - pipeline: trigger1
       source: leriksen.trigger1
       project: triggering
-      trigger:
-        branches:
-          include:
-            - '*'
+      trigger: true
 
 steps:
   - checkout: none
